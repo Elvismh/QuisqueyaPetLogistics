@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importa los estilos de Swiper. Estas importaciones permiten que el carrusel
+ * funcione correctamente sin la necesidad de importar CSS en componentes
+ * individuales. Puedes añadir o quitar módulos según los uses en Swiper. */
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+@import 'swiper/css/effect-fade';
